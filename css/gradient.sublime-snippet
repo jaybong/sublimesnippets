@@ -1,0 +1,19 @@
+    <snippet>
+    <content>
+    <![CDATA[
+    background-color: ${1:top};
+    background-image: -webkit-gradient(linear, left top, left bottom, from(${1:top}), to(${2:bottom})); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, ${1:top}, ${2:bottom}); /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient(top, ${1:top}, ${2:bottom}); /* FF3.6 */
+    background-image: -ms-linear-gradient(top, ${1:top}, ${2:bottom}); /* IE10 */
+    background-image: -o-linear-gradient(top, ${1:top}, ${2:bottom}); /* Opera 11.10+ */
+    background-image: linear-gradient(top, ${1:top}, ${2:bottom});
+    filter: "progid:DXImageTransform.Microsoft.Gradient(startColorstr=${1:top}, endColorstr=${2:bottom})";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorstr=${1:top}, endColorstr=${2:bottom})";
+    ]]>
+    </content>
+     
+    <tabTrigger>gradient</tabTrigger>
+    <scope>source.css</scope>
+    <description>Cross-browser vertical linear gradient</description>
+    </snippet>
