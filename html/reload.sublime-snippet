@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://192.168.3.155:35729/livereload.js?snipver=1"></script> <!-- Change IP to Local PC IP -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reload</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<!-- 	<scope>source.python</scope> -->
+</snippet>
