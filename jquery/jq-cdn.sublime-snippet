@@ -6,6 +6,6 @@
     </content>
      
     <tabTrigger>jqcdn</tabTrigger>
-    <scope>source.html</scope>
+    <scope>source.js</scope>
     <description>Link to Google's jQuery CDN</description>
     </snippet>
